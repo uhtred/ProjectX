@@ -33,7 +33,8 @@
       ],
       "js": [
         "js/jquery/jquery.js",
-        "js/webmotors.js",
+        "js/website/webmotors.js",
+        "js/main.js",
         "src/inject/inject.js"
       ],
       "css": [

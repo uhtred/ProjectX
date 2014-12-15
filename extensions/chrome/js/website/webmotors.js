@@ -2,7 +2,6 @@ var Webmotors = function() {
 
     function Main() {
     	this.category = ['vehicles', 'cars', 'motorcycles'];
-        this.init();
     }
 
     Main.prototype = {
@@ -43,13 +42,13 @@ var Webmotors = function() {
             return $('.geral.informacoes > div:eq(1) > p').text().match(/(.*?)\s*Observações do vendedor/)[1]
         },
 
-        placeButton: function() {
-            $('.detalhes-anuncio div:eq(0)').after('<button class="project-x__btn-compare">Comparar</button>');
+        placeButtonContainer: function() {
+            $('.detalhes-anuncio div:eq(0)').after('<div class="project-x__btn-container" />');
         },
 
         init: function() {
             this.$infoBox = $('.geral.informacoes .dis-tc:eq(0)');
-            this.placeButton();
+            this.placeButtonContainer();
         }
     };
 
