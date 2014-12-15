@@ -1,6 +1,7 @@
 var Webmotors = function() {
 
     function Main() {
+    	this.category = ['vehicles', 'cars', 'motorcycles'];
         this.init();
     }
 
