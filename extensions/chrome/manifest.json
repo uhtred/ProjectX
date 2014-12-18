@@ -2,8 +2,8 @@
   "name": "Project X",
   "version": "0.0.1",
   "manifest_version": 2,
-  "description": "This extension was created with the awesome extensionizr.com",
-  "homepage_url": "http://extensionizr.com",
+  "description": "Project X",
+  "homepage_url": "http://drfranca.com.br",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
@@ -17,7 +17,7 @@
   },
   "browser_action": {
     "default_icon": "icons/icon19.png",
-    "default_title": "browser action demo",
+    "default_title": "Project Freedom",
     "default_popup": "src/browser_action/browser_action.html"
   },
   "permissions": [
@@ -33,7 +33,7 @@
       ],
       "js": [
         "js/jquery/jquery.js",
-        "js/website/webmotors.js",
+        "js/website/webmotors/detail.js",
         "js/main.js",
         "src/inject/inject.js"
       ],
