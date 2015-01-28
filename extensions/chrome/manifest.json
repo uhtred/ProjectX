@@ -29,11 +29,13 @@
   "content_scripts": [
     {
       "matches": [
-        "http://www.webmotors.com.br/*"
+        "http://www.webmotors.com.br/*",
+        "http://www.autoscar.com.br/*"
       ],
       "js": [
         "js/jquery/jquery.js",
         "js/website/webmotors/detail.js",
+        "js/website/autoscar/detail.js",
         "js/main.js",
         "src/inject/inject.js"
       ],
